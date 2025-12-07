@@ -153,6 +153,8 @@ AND t2.industry IS NOT NULL;
 select * from layoffs_staging2;
 
 
+
+
 select * from layoffs_staging2
 where industry IS NULL OR industry='';
 
